@@ -47,8 +47,7 @@ it contains:
 - The PyTorch test models and Triton test kernels used as benchmark inputs
   (`testing_layers/`, `triton_testing_layers/`)
 - The complete raw and aggregated benchmark results (`benchmark_results.json`,
-  `benchmark_vpu_results.json`, the matching `.csv` summaries, and per-run
-  generated code under `benchmark_outputs/` and `benchmark_vpu_outputs/`)
+  `benchmark_vpu_results.json`, and the matching `.csv` summaries)
 
 **Not included** (proprietary and excluded with the company's permission):
 
@@ -89,10 +88,13 @@ company's internal monorepo and saved here as-is.
 ├── testing_layers/                        PyTorch input models (Exp 1)
 ├── triton_testing_layers/                 Triton input kernels + PyTorch refs (Exp 2)
 ├── benchmark_results.json + .csv          Exp 1 raw + summary results
-├── benchmark_vpu_results.json + .csv      Exp 2 raw + summary results
-├── benchmark_outputs/                     Exp 1 generated code per run
-└── benchmark_vpu_outputs/                 Exp 2 generated code per run
+└── benchmark_vpu_results.json + .csv      Exp 2 raw + summary results
 ```
+
+The per-run generated `output.py` files produced during the experiments
+are not included here for IP reasons. The per-run records — including
+input shape, max_diff per shape, error category, token cost, and elapsed
+time — remain in the JSON result files.
 
 ## The two experiments at a glance
 
@@ -172,13 +174,10 @@ both versions intact rather than merging them into one composite.
    protocol and prompts.
 6. **[benchmark_results.csv](benchmark_results.csv) /
    [benchmark_vpu_results.csv](benchmark_vpu_results.csv)** — the per-level
-   summary tables the thesis quotes. The full per-run records live in the
-   matching `.json` files.
-7. **[benchmark_outputs/](benchmark_outputs/) /
-   [benchmark_vpu_outputs/](benchmark_vpu_outputs/)** — every piece of
-   generated code, one `output.py` per `(approach, level, run)`. These are
-   the actual artifacts produced by each LLM call.
-8. **[langgraph_agent_exp2/demo.ipynb](langgraph_agent_exp2/demo.ipynb) /
+   summary tables the thesis quotes. The full per-run records (input shape,
+   max_diff, error categories, tokens, wall time, etc.) live in the matching
+   `.json` files.
+7. **[langgraph_agent_exp2/demo.ipynb](langgraph_agent_exp2/demo.ipynb) /
    [langgraph_agent_exp2/explore_vpu.ipynb](langgraph_agent_exp2/explore_vpu.ipynb)** —
    exploratory notebooks documenting the system design and the VPU lowering
    pipeline. They reference internal Tensordyne APIs and will not execute in
