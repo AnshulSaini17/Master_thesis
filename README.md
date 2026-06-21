@@ -3,12 +3,17 @@
 This repository accompanies my master's thesis on **automatic transpilation
 from PyTorch `nn.Module` implementations into the Tensordyne accelerator
 software stack** using large-language-model-based systems. It contains the
-non-proprietary part of the code, the system prompts, the benchmark results,
-the failure analysis, and supporting documentation.
+non-proprietary part of the code, the benchmark results, and the generated
+outputs.
+
+The thesis PDF is the canonical document for methodology, system design,
+discussion, and conclusions. This repository is a companion to the PDF — it
+holds the code I authored and the raw experimental data behind the tables
+in the evaluation chapter.
 
 **Author**: Anshul Saini · **Affiliation**: Tensordyne AI (industrial thesis)
 
-## What this repository is
+## What this thesis is about
 
 The thesis studies whether LLM-based systems can reliably translate PyTorch
 models into a target stack whose APIs are *proprietary and absent from
@@ -40,7 +45,6 @@ it contains:
 - The complete raw and aggregated benchmark results (`benchmark_results.json`,
   `benchmark_vpu_results.json`, the matching `.csv` summaries, and per-run
   generated code under `benchmark_outputs/` and `benchmark_vpu_outputs/`)
-- Methodological documentation written in this work (`docs/`)
 
 **Not included** (proprietary and excluded with the company's permission):
 
@@ -76,12 +80,6 @@ company's internal monorepo and saved here as-is.
 ├── src/vector_search/core/ast_chunking.py CASTChunker used by build_kb_ast.py
 ├── testing_layers/                        PyTorch input models (Exp 1)
 ├── triton_testing_layers/                 Triton input kernels + PyTorch refs (Exp 2)
-├── docs/
-│   ├── system_prompts.md                  all prompts & tool docstrings (both exps)
-│   ├── benchmark_results.md               full results write-up
-│   ├── failure_categories.md              failure-mode analysis
-│   ├── kb_ablation_PLACEHOLDER.md         ablation methodology (illustrative table)
-│   └── categorize_failures.py             script that produces the failure analysis
 ├── benchmark_results.json + .csv          Exp 1 raw + summary results
 ├── benchmark_vpu_results.json + .csv      Exp 2 raw + summary results
 ├── benchmark_outputs/                     Exp 1 generated code per run
@@ -116,29 +114,8 @@ can also operate at the IR level, with the agent directly emitting an
 | Self-Correction (avg tools)  | —         | —       | 13.8      |
 | Numeric Accuracy (mean diff) | 0.0       | 0.0     | 1.04 × 10⁻⁵|
 
-A detailed breakdown — per level, per approach, with cost and failure
-analysis — lives in [docs/benchmark_results.md](docs/benchmark_results.md)
-and [docs/failure_categories.md](docs/failure_categories.md).
-
-## Key findings (short summary)
-
-- **The agent dominates both experiments.** It reaches the top of the Exp 1
-  ladder and passes 6 of 7 levels in Exp 2 (the unpassed level is an
-  infrastructure failure of the PyTorch reference itself, not a translation
-  failure — see [docs/benchmark_results.md](docs/benchmark_results.md)).
-- **Failure modes differ qualitatively across approaches.** Across 117 shape
-  evaluations per approach, the agent produced **zero hallucinated imports**,
-  while RAG produced 33. This is direct evidence that the agent's interactive
-  `lookup_kb` queries prevent the "I've seen this name in retrieved docs, so
-  it must be importable" failure mode that single-shot RAG suffers from.
-- **The cost gap is two orders of magnitude.** Agentic uses ~100 × the input
-  tokens of prompting in Exp 1 and ~375 × in Exp 2 — this is the price of
-  letting the agent iterate via tool calls.
-- **No sandbagging events** were recorded across all 63 Exp 2 runs (sandbagging
-  detection — agent output ≈ 0 against a non-zero reference — was implemented
-  as a guard rail).
-
-The full thesis writeup discusses these findings in detail.
+The thesis PDF contains the full per-level breakdowns, cost analysis,
+sandbagging report, and failure-mode discussion.
 
 ## Configuration used for the reported results
 
@@ -151,30 +128,38 @@ The full thesis writeup discusses these findings in detail.
 - **Number of shapes per run**: 3 (all 3 must pass)
 - **Pass tolerance**: `max_diff < 1.0` against PyTorch fp32 reference
 
-All exact prompts (system prompts and tool docstrings) are reproduced verbatim
-in [docs/system_prompts.md](docs/system_prompts.md) for citation in the thesis.
+The verbatim system prompts and tool docstrings are defined as constants in
+the source files: `_SYSTEM_PROMPT` and `_VPU_LOWERING_SYSTEM_PROMPT` in
+[langgraph_agent/agent.py](langgraph_agent/agent.py), `_PROMPTING_SYSTEM` and
+`_RAG_SYSTEM` in [benchmark_eval.py](benchmark_eval.py),
+`_PROMPTING_VPU_SYSTEM` and `_RAG_VPU_SYSTEM` in
+[benchmark_vpu_eval.py](benchmark_vpu_eval.py), and the tool docstrings in
+[langgraph_agent/tools.py](langgraph_agent/tools.py).
 
 ## How to read the repository
 
-1. Start with [docs/benchmark_results.md](docs/benchmark_results.md) — the
-   results document; it includes the headline tables, per-level breakdowns,
-   cost analysis, sandbagging report, and anomalies worth flagging.
-2. Open [docs/system_prompts.md](docs/system_prompts.md) for the exact
-   prompts used in each approach.
-3. [docs/failure_categories.md](docs/failure_categories.md) contains the
-   categorisation of every failed shape evaluation across both experiments.
-4. [langgraph_agent/agent.py](langgraph_agent/agent.py) is the agent itself;
-   [langgraph_agent/tools.py](langgraph_agent/tools.py) defines the five
-   tools the agent uses.
-5. [benchmark_eval.py](benchmark_eval.py) is the Exp 1 protocol;
-   [benchmark_vpu_eval.py](benchmark_vpu_eval.py) is the Exp 2 protocol.
-   Both contain the prompting and RAG system prompts as in-file constants
-   (`_PROMPTING_SYSTEM`, `_RAG_SYSTEM`, `_PROMPTING_VPU_SYSTEM`, `_RAG_VPU_SYSTEM`).
-6. The two notebooks under [langgraph_agent/](langgraph_agent/) — `demo.ipynb`
-   and `explore_vpu.ipynb` — document the interactive exploration that
-   informed the system design. They reference internal Tensordyne APIs and
-   will not execute in this repository, but their content (markdown, code,
-   and saved outputs) is preserved as part of the development record.
+1. **[langgraph_agent/agent.py](langgraph_agent/agent.py)** — the agent itself.
+   The two operating modes (`nn` and `vpu_lowering`) and the outer-loop logic.
+2. **[langgraph_agent/tools.py](langgraph_agent/tools.py)** — the five agent
+   tools: `read_pytorch_source`, `lookup_kb`, `think`, `run_evaluation`
+   (or `run_vpu_evaluation`), `write_output`.
+3. **[benchmark_eval.py](benchmark_eval.py)** — the Experiment 1 protocol and
+   the prompting/RAG system prompts as in-file constants.
+4. **[benchmark_vpu_eval.py](benchmark_vpu_eval.py)** — the Experiment 2
+   protocol and prompts.
+5. **[benchmark_results.csv](benchmark_results.csv) /
+   [benchmark_vpu_results.csv](benchmark_vpu_results.csv)** — the per-level
+   summary tables the thesis quotes. The full per-run records live in the
+   matching `.json` files.
+6. **[benchmark_outputs/](benchmark_outputs/) /
+   [benchmark_vpu_outputs/](benchmark_vpu_outputs/)** — every piece of
+   generated code, one `output.py` per `(approach, level, run)`. These are
+   the actual artifacts produced by each LLM call.
+7. **[langgraph_agent/demo.ipynb](langgraph_agent/demo.ipynb) /
+   [langgraph_agent/explore_vpu.ipynb](langgraph_agent/explore_vpu.ipynb)** —
+   exploratory notebooks documenting the system design and the VPU lowering
+   pipeline. They reference internal Tensordyne APIs and will not execute in
+   this repository.
 
 ## Reproducibility note
 
@@ -187,9 +172,9 @@ lives in Tensordyne's internal repository on branch
 
 ## License and attribution
 
-All code and documentation in this repository was authored by me as part of
-my master's thesis. The Tensordyne SDK and Pyxis VPU specifications referenced
-in the thesis are proprietary to Tensordyne AI and are not included here.
+All code in this repository was authored by me as part of my master's
+thesis. The Tensordyne SDK and Pyxis VPU specifications referenced in the
+thesis are proprietary to Tensordyne AI and are not included here.
 
 The use of this repository for academic review (thesis examination) is
 explicitly permitted. Any other use of the code or its derivatives requires
