@@ -83,20 +83,13 @@ MODULE SKELETON:
       def build(self, x: nn.Tensor) -> nn.Tensor:   # build(), NOT forward()
           return self.fc.build(x)                    # .build(), NOT self.fc(x)
 
-PRODUCTION MODULES — always prefer these over plain nn.Linear / nn.RMSNorm:
-  • Use BufferizedLinear instead of nn.Linear for ALL weight projections.
-  • Use BufferizedRMSNorm instead of nn.RMSNorm for ALL norms — NEVER write a custom
-    RMSNorm class (e.g. LlamaRMSNorm). BufferizedRMSNorm handles everything.
-  • Use _bufferized_add(x, y) instead of x + y for residual connections.
-  • Always call linears via _build_linear(self.proj, x, 'proj') — never .build(x) directly.
-  • Always call norms via _build_rms_norm(self.norm, x) — never .build(x) directly.
-  • Copy the three helper functions (_build_linear, _build_rms_norm, _bufferized_add)
-    verbatim from the KB into the output file — they are module-level functions, not methods.
-  • Imports needed: from tensordyne.nn.modules.linear import BufferizedLinear
-                    from tensordyne.nn.modules.normalization import BufferizedRMSNorm
-                    from tensordyne.nn._bufferize import bufferize
-  • lookup_kb("BufferizedLinear") and lookup_kb("_build_linear") to get full signatures
-    and the exact helper implementations before writing these.
+TARGET MODULE CONVENTIONS:
+  - Use the target-side module and normalization APIs described in the retrieved KB records.
+  - Follow the target stack's documented construction and build conventions.
+  - For projections, normalization, and residual connections, prefer the helper patterns
+    returned by retrieval instead of inventing custom implementations.
+  - If an operation has a target-specific helper, use the retrieved helper signature exactly.
+  - Do not expose internal lowering, buffering, or runtime implementation details in the output.
     
 WEIGHT NAMING — CRITICAL:
 The evaluator matches weights by attribute name path (e.g. "model.layers.0.self_attn.q_proj.weight").

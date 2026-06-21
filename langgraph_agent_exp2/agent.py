@@ -85,12 +85,14 @@ MODULE SKELETON:
       def build(self, x: nn.Tensor) -> nn.Tensor:   # build(), NOT forward()
           return self.fc.build(x)                    # .build(), NOT self.fc(x)
 
-FOR PYTORCH SOURCES — production module guidance:
-  • Use BufferizedLinear instead of nn.Linear for ALL weight projections.
-  • Use BufferizedRMSNorm instead of nn.RMSNorm for ALL norms.
-  • Use _bufferized_add(x, y) instead of x + y for residual connections.
-  • lookup_kb("BufferizedLinear") and lookup_kb("_build_linear") before writing these.
-  • Weight attribute names must match the PyTorch source exactly — the evaluator
+FOR PYTORCH SOURCES — target module conventions:
+  - Use the target-side module and normalization APIs described in the retrieved KB records.
+  - Follow the target stack's documented construction and build conventions.
+  - For projections, normalization, and residual connections, prefer the helper patterns
+    returned by retrieval instead of inventing custom implementations.
+  - If an operation has a target-specific helper, use the retrieved helper signature exactly.
+  - Do not expose internal lowering, buffering, or runtime implementation details in the output.
+  - Weight attribute names must match the PyTorch source exactly — the evaluator
     loads weights by name path (e.g. "model.layers.0.self_attn.q_proj.weight").
 
 FOR TRITON SOURCES — translation guidance:
