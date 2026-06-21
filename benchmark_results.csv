@@ -1,0 +1,19 @@
+approach,level_id,level_name,runs_passed,total_runs,first_pass_rate,mean_max_diff,mean_tool_calls,sandbag_shapes
+prompting,0,L0 Single Linear,3,3,1.0000,0.000000e+00,None,0
+prompting,1,L1 MLP (3-layer ReLU),3,3,1.0000,0.000000e+00,None,0
+prompting,2,L2 Single-Head Attention,0,3,0.0000,,None,0
+prompting,3,L3 Gated MLP + RMSNorm,0,3,0.0000,,None,0
+prompting,4,L4 Multi-Head Attention + RMSNorm,0,3,0.0000,,None,0
+prompting,5,L5 Llama Decoder Layer,0,3,0.0000,,None,0
+rag,0,L0 Single Linear,3,3,1.0000,0.000000e+00,None,0
+rag,1,L1 MLP (3-layer ReLU),3,3,1.0000,0.000000e+00,None,0
+rag,2,L2 Single-Head Attention,3,3,1.0000,0.000000e+00,None,0
+rag,3,L3 Gated MLP + RMSNorm,0,3,0.0000,,None,0
+rag,4,L4 Multi-Head Attention + RMSNorm,0,3,0.0000,,None,0
+rag,5,L5 Llama Decoder Layer,0,3,0.0000,,None,0
+agentic,0,L0 Single Linear,3,3,1.0000,0.000000e+00,9,0
+agentic,1,L1 MLP (3-layer ReLU),3,3,1.0000,0.000000e+00,10,0
+agentic,2,L2 Single-Head Attention,2,3,0.6667,4.221996e-08,15,0
+agentic,3,L3 Gated MLP + RMSNorm,3,3,1.0000,2.119276e-07,14.7,0
+agentic,4,L4 Multi-Head Attention + RMSNorm,2,3,0.6667,2.384186e-07,17,0
+agentic,5,L5 Llama Decoder Layer,3,3,1.0000,2.980232e-07,25.7,0

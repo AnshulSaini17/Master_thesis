@@ -1,0 +1,22 @@
+approach,level_id,level_name,runs_passed,total_runs,first_pass_rate,mean_max_diff,mean_tool_calls,sandbag_shapes
+prompting,0,L0 Negate (elementwise multi-row),3,3,1.0000,0.000000e+00,None,0
+prompting,1,L1 Abs (HW-native unary),3,3,1.0000,0.000000e+00,None,0
+prompting,2,L2 ReLU (predicate vs scalar zero),0,3,0.0000,,None,0
+prompting,3,L3 Clip (parametric min/max),0,3,0.0000,,None,0
+prompting,4,L4 Row-max reduction (TLM-verified pattern),0,3,0.0000,,None,0
+prompting,5,L5 AbsMaxNorm (reduce-then-broadcast),0,3,0.0000,,None,0
+prompting,6,L6 Softmax (reduce + LUT exp + scalar broadcast),0,3,0.0000,,None,0
+rag,0,L0 Negate (elementwise multi-row),3,3,1.0000,0.000000e+00,None,0
+rag,1,L1 Abs (HW-native unary),3,3,1.0000,0.000000e+00,None,0
+rag,2,L2 ReLU (predicate vs scalar zero),0,3,0.0000,,None,0
+rag,3,L3 Clip (parametric min/max),0,3,0.0000,,None,0
+rag,4,L4 Row-max reduction (TLM-verified pattern),3,3,1.0000,0.000000e+00,None,0
+rag,5,L5 AbsMaxNorm (reduce-then-broadcast),0,3,0.0000,,None,0
+rag,6,L6 Softmax (reduce + LUT exp + scalar broadcast),0,3,0.0000,,None,0
+agentic,0,L0 Negate (elementwise multi-row),3,3,1.0000,0.000000e+00,8.3,0
+agentic,1,L1 Abs (HW-native unary),3,3,1.0000,0.000000e+00,9,0
+agentic,2,L2 ReLU (predicate vs scalar zero),3,3,1.0000,0.000000e+00,12.7,0
+agentic,3,L3 Clip (parametric min/max),3,3,1.0000,0.000000e+00,14.7,0
+agentic,4,L4 Row-max reduction (TLM-verified pattern),3,3,1.0000,0.000000e+00,9,0
+agentic,5,L5 AbsMaxNorm (reduce-then-broadcast),0,3,0.0000,,None,0
+agentic,6,L6 Softmax (reduce + LUT exp + scalar broadcast),3,3,1.0000,6.246567e-05,29,0

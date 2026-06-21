@@ -1,0 +1,3553 @@
+[
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 0,
+    "level_name": "Negate (elementwise multi-row)",
+    "family": "elementwise",
+    "run_idx": 0,
+    "timestamp": "2026-05-31T10:39:17Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level0/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1352,
+    "output_tokens": 325,
+    "elapsed_s": 5.6
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 0,
+    "level_name": "Negate (elementwise multi-row)",
+    "family": "elementwise",
+    "run_idx": 1,
+    "timestamp": "2026-05-31T10:39:28Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level0/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1352,
+    "output_tokens": 327,
+    "elapsed_s": 4.3
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 0,
+    "level_name": "Negate (elementwise multi-row)",
+    "family": "elementwise",
+    "run_idx": 2,
+    "timestamp": "2026-05-31T10:39:33Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level0/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1352,
+    "output_tokens": 327,
+    "elapsed_s": 4.7
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 1,
+    "level_name": "Abs (HW-native unary)",
+    "family": "elementwise",
+    "run_idx": 0,
+    "timestamp": "2026-05-31T10:39:50Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level1/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1358,
+    "output_tokens": 324,
+    "elapsed_s": 4.4
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 1,
+    "level_name": "Abs (HW-native unary)",
+    "family": "elementwise",
+    "run_idx": 1,
+    "timestamp": "2026-05-31T10:39:55Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level1/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1358,
+    "output_tokens": 324,
+    "elapsed_s": 5.1
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 1,
+    "level_name": "Abs (HW-native unary)",
+    "family": "elementwise",
+    "run_idx": 2,
+    "timestamp": "2026-05-31T10:40:00Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level1/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1358,
+    "output_tokens": 324,
+    "elapsed_s": 4.6
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 2,
+    "level_name": "ReLU (predicate vs scalar zero)",
+    "family": "elementwise",
+    "run_idx": 0,
+    "timestamp": "2026-05-31T10:40:05Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level2/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpj6oflxtw.py\", line 22, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpyd3onelf.py\", line 22, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmp14930c1t.py\", line 22, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1362,
+    "output_tokens": 408,
+    "elapsed_s": 5.7
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 2,
+    "level_name": "ReLU (predicate vs scalar zero)",
+    "family": "elementwise",
+    "run_idx": 1,
+    "timestamp": "2026-05-31T10:40:10Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level2/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpd4oocam7.py\", line 16, in build_graph\n    ir.instructions.pyxis.vpu.insert_literal(0.0),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError:"
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmp9ixg_p0l.py\", line 16, in build_graph\n    ir.instructions.pyxis.vpu.insert_literal(0.0),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError:"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmp_ttdamg4.py\", line 16, in build_graph\n    ir.instructions.pyxis.vpu.insert_literal(0.0),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError:"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1362,
+    "output_tokens": 477,
+    "elapsed_s": 6.5
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 2,
+    "level_name": "ReLU (predicate vs scalar zero)",
+    "family": "elementwise",
+    "run_idx": 2,
+    "timestamp": "2026-05-31T10:40:17Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level2/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmp6ca7chft.py\", line 20, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpaiidggul.py\", line 20, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmp7i_nqge6.py\", line 20, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1362,
+    "output_tokens": 371,
+    "elapsed_s": 4.9
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 3,
+    "level_name": "Clip (parametric min/max)",
+    "family": "elementwise",
+    "run_idx": 0,
+    "timestamp": "2026-05-31T10:40:22Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level3/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpcufhoy_9.py\", line 23, in build_graph\n    ir.instructions.pyxis.vpu.insert_literal(value=\"hi\"),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttribut"
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpo_6zbnjs.py\", line 23, in build_graph\n    ir.instructions.pyxis.vpu.insert_literal(value=\"hi\"),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttribut"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmphhd4hww3.py\", line 23, in build_graph\n    ir.instructions.pyxis.vpu.insert_literal(value=\"hi\"),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttribut"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1408,
+    "output_tokens": 536,
+    "elapsed_s": 15.2
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 3,
+    "level_name": "Clip (parametric min/max)",
+    "family": "elementwise",
+    "run_idx": 1,
+    "timestamp": "2026-05-31T10:40:37Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level3/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpbd2wrog1.py\", line 23, in build_graph\n    ir.instructions.pyxis.vpu.insert_literal(ir.Literal(input_type.dtype, \"hi\")),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^"
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpq35k3n67.py\", line 23, in build_graph\n    ir.instructions.pyxis.vpu.insert_literal(ir.Literal(input_type.dtype, \"hi\")),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmp0am_t8m0.py\", line 23, in build_graph\n    ir.instructions.pyxis.vpu.insert_literal(ir.Literal(input_type.dtype, \"hi\")),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1408,
+    "output_tokens": 602,
+    "elapsed_s": 7.3
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 3,
+    "level_name": "Clip (parametric min/max)",
+    "family": "elementwise",
+    "run_idx": 2,
+    "timestamp": "2026-05-31T10:40:44Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level3/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpkw__rat5.py\", line 23, in build_graph\n    ir.instructions.pyxis.vpu.insert_literal(hi),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: "
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmp_jgs4cb9.py\", line 23, in build_graph\n    ir.instructions.pyxis.vpu.insert_literal(hi),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: "
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpo66_34jg.py\", line 23, in build_graph\n    ir.instructions.pyxis.vpu.insert_literal(hi),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: "
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1408,
+    "output_tokens": 528,
+    "elapsed_s": 7.0
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 4,
+    "level_name": "Row-max reduction (TLM-verified pattern)",
+    "family": "reduction",
+    "run_idx": 0,
+    "timestamp": "2026-05-31T10:40:51Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level4/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpz5lc_omg.py\", line 20, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmp_y1zcdt9.py\", line 20, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpc0dwl1wa.py\", line 20, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1418,
+    "output_tokens": 1112,
+    "elapsed_s": 19.8
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 4,
+    "level_name": "Row-max reduction (TLM-verified pattern)",
+    "family": "reduction",
+    "run_idx": 1,
+    "timestamp": "2026-05-31T10:41:11Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level4/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmp4mwdx8lq.py\", line 21, in build_graph\n    acc = vpu_kernel.insert(\n          ^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/python/tensordyne-ir/tensord"
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpavphqkh6.py\", line 21, in build_graph\n    acc = vpu_kernel.insert(\n          ^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/python/tensordyne-ir/tensord"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmp8dfq2v42.py\", line 21, in build_graph\n    acc = vpu_kernel.insert(\n          ^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/python/tensordyne-ir/tensord"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1418,
+    "output_tokens": 1011,
+    "elapsed_s": 17.0
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 4,
+    "level_name": "Row-max reduction (TLM-verified pattern)",
+    "family": "reduction",
+    "run_idx": 2,
+    "timestamp": "2026-05-31T10:41:28Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level4/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpa2b2wqqv.py\", line 17, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpngc_q5zx.py\", line 17, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpdrpscw2f.py\", line 17, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1418,
+    "output_tokens": 965,
+    "elapsed_s": 17.3
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 5,
+    "level_name": "AbsMaxNorm (reduce-then-broadcast)",
+    "family": "norm",
+    "run_idx": 0,
+    "timestamp": "2026-05-31T10:41:46Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level5/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpxs6gsctx.py\", line 24, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpekfa4cka.py\", line 24, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmparzigq2b.py\", line 24, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1572,
+    "output_tokens": 1834,
+    "elapsed_s": 27.3
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 5,
+    "level_name": "AbsMaxNorm (reduce-then-broadcast)",
+    "family": "norm",
+    "run_idx": 1,
+    "timestamp": "2026-05-31T10:42:13Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level5/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpbc76ihf3.py\", line 25, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpphjotzac.py\", line 25, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmp6hcscwmj.py\", line 25, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1572,
+    "output_tokens": 1859,
+    "elapsed_s": 28.2
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 5,
+    "level_name": "AbsMaxNorm (reduce-then-broadcast)",
+    "family": "norm",
+    "run_idx": 2,
+    "timestamp": "2026-05-31T10:42:41Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level5/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmph22xcw2l.py\", line 32, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpafhxcj8m.py\", line 32, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpefibwr4a.py\", line 32, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1572,
+    "output_tokens": 2008,
+    "elapsed_s": 29.9
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 6,
+    "level_name": "Softmax (reduce + LUT exp + scalar broadcast)",
+    "family": "norm",
+    "run_idx": 0,
+    "timestamp": "2026-05-31T10:43:11Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level6/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpr4fj2vs7.py\", line 29, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpbetab_pb.py\", line 29, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpewgf5fr8.py\", line 29, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1465,
+    "output_tokens": 2839,
+    "elapsed_s": 44.8
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 6,
+    "level_name": "Softmax (reduce + LUT exp + scalar broadcast)",
+    "family": "norm",
+    "run_idx": 1,
+    "timestamp": "2026-05-31T10:43:56Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level6/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpkj7wffph.py\", line 24, in build_graph\n    ir.instructions.pyxis.vpu.insert_literal(float(\"-inf\")),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttri"
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpz1db7d9f.py\", line 24, in build_graph\n    ir.instructions.pyxis.vpu.insert_literal(float(\"-inf\")),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttri"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpste3mtam.py\", line 24, in build_graph\n    ir.instructions.pyxis.vpu.insert_literal(float(\"-inf\")),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttri"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1465,
+    "output_tokens": 4096,
+    "elapsed_s": 53.0
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 6,
+    "level_name": "Softmax (reduce + LUT exp + scalar broadcast)",
+    "family": "norm",
+    "run_idx": 2,
+    "timestamp": "2026-05-31T10:44:49Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/prompting/level6/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmp27n3woy1.py\", line 21, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpzz8avt_v.py\", line 21, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpl5r_kir_.py\", line 21, in build_graph\n    ir.instructions.pyxis.vpu.LoadZero(),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: LoadZero.__init__"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1465,
+    "output_tokens": 4030,
+    "elapsed_s": 57.5
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 0,
+    "level_name": "Negate (elementwise multi-row)",
+    "family": "elementwise",
+    "run_idx": 0,
+    "timestamp": "2026-05-31T10:45:46Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level0/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 2951,
+    "output_tokens": 245,
+    "elapsed_s": 7.8
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 0,
+    "level_name": "Negate (elementwise multi-row)",
+    "family": "elementwise",
+    "run_idx": 1,
+    "timestamp": "2026-05-31T10:45:54Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level0/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 2951,
+    "output_tokens": 298,
+    "elapsed_s": 6.5
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 0,
+    "level_name": "Negate (elementwise multi-row)",
+    "family": "elementwise",
+    "run_idx": 2,
+    "timestamp": "2026-05-31T10:46:01Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level0/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 2951,
+    "output_tokens": 245,
+    "elapsed_s": 6.3
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 1,
+    "level_name": "Abs (HW-native unary)",
+    "family": "elementwise",
+    "run_idx": 0,
+    "timestamp": "2026-05-31T10:46:07Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level1/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 3035,
+    "output_tokens": 420,
+    "elapsed_s": 8.9
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 1,
+    "level_name": "Abs (HW-native unary)",
+    "family": "elementwise",
+    "run_idx": 1,
+    "timestamp": "2026-05-31T10:46:16Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level1/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 3035,
+    "output_tokens": 442,
+    "elapsed_s": 10.1
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 1,
+    "level_name": "Abs (HW-native unary)",
+    "family": "elementwise",
+    "run_idx": 2,
+    "timestamp": "2026-05-31T10:46:26Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level1/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 3035,
+    "output_tokens": 388,
+    "elapsed_s": 11.0
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 2,
+    "level_name": "ReLU (predicate vs scalar zero)",
+    "family": "elementwise",
+    "run_idx": 0,
+    "timestamp": "2026-05-31T10:46:37Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level2/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "unexpected:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 216, in evaluate_vpu_kernel\n    spec.loader.exec_module(agent_mod)  # type: ignore[union-attr]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File"
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "unexpected:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 216, in evaluate_vpu_kernel\n    spec.loader.exec_module(agent_mod)  # type: ignore[union-attr]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "unexpected:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 216, in evaluate_vpu_kernel\n    spec.loader.exec_module(agent_mod)  # type: ignore[union-attr]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 3767,
+    "output_tokens": 797,
+    "elapsed_s": 15.2
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 2,
+    "level_name": "ReLU (predicate vs scalar zero)",
+    "family": "elementwise",
+    "run_idx": 1,
+    "timestamp": "2026-05-31T10:46:52Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level2/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmp3bbzqg0k.py\", line 20, in build_graph\n    ir.instructions.Constant(value=0),\n    ^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'tensordyne.ir.instr"
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpsox52zg7.py\", line 20, in build_graph\n    ir.instructions.Constant(value=0),\n    ^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'tensordyne.ir.instr"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpik8c88w4.py\", line 20, in build_graph\n    ir.instructions.Constant(value=0),\n    ^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'tensordyne.ir.instr"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 3767,
+    "output_tokens": 831,
+    "elapsed_s": 15.2
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 2,
+    "level_name": "ReLU (predicate vs scalar zero)",
+    "family": "elementwise",
+    "run_idx": 2,
+    "timestamp": "2026-05-31T10:47:07Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level2/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": 1,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "reference model failed:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 301, in evaluate_vpu_kernel\n    ref_out = ref_model(*ref_inputs)\n              ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/staging/venvs/system/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs"
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": 1,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "reference model failed:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 301, in evaluate_vpu_kernel\n    ref_out = ref_model(*ref_inputs)\n              ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/staging/venvs/system/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": 1,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "reference model failed:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 301, in evaluate_vpu_kernel\n    ref_out = ref_model(*ref_inputs)\n              ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/staging/venvs/system/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 3767,
+    "output_tokens": 962,
+    "elapsed_s": 19.1
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 3,
+    "level_name": "Clip (parametric min/max)",
+    "family": "elementwise",
+    "run_idx": 0,
+    "timestamp": "2026-05-31T10:47:27Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level3/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "unexpected:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 216, in evaluate_vpu_kernel\n    spec.loader.exec_module(agent_mod)  # type: ignore[union-attr]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File"
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "unexpected:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 216, in evaluate_vpu_kernel\n    spec.loader.exec_module(agent_mod)  # type: ignore[union-attr]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "unexpected:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 216, in evaluate_vpu_kernel\n    spec.loader.exec_module(agent_mod)  # type: ignore[union-attr]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 4022,
+    "output_tokens": 920,
+    "elapsed_s": 16.2
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 3,
+    "level_name": "Clip (parametric min/max)",
+    "family": "elementwise",
+    "run_idx": 1,
+    "timestamp": "2026-05-31T10:47:43Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level3/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "unexpected:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 216, in evaluate_vpu_kernel\n    spec.loader.exec_module(agent_mod)  # type: ignore[union-attr]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File"
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "unexpected:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 216, in evaluate_vpu_kernel\n    spec.loader.exec_module(agent_mod)  # type: ignore[union-attr]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "unexpected:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 216, in evaluate_vpu_kernel\n    spec.loader.exec_module(agent_mod)  # type: ignore[union-attr]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 4022,
+    "output_tokens": 915,
+    "elapsed_s": 16.5
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 3,
+    "level_name": "Clip (parametric min/max)",
+    "family": "elementwise",
+    "run_idx": 2,
+    "timestamp": "2026-05-31T10:47:59Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level3/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "unexpected:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 216, in evaluate_vpu_kernel\n    spec.loader.exec_module(agent_mod)  # type: ignore[union-attr]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File"
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "unexpected:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 216, in evaluate_vpu_kernel\n    spec.loader.exec_module(agent_mod)  # type: ignore[union-attr]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "unexpected:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 216, in evaluate_vpu_kernel\n    spec.loader.exec_module(agent_mod)  # type: ignore[union-attr]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 4022,
+    "output_tokens": 827,
+    "elapsed_s": 14.8
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 4,
+    "level_name": "Row-max reduction (TLM-verified pattern)",
+    "family": "reduction",
+    "run_idx": 0,
+    "timestamp": "2026-05-31T10:48:14Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level4/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 5654,
+    "output_tokens": 642,
+    "elapsed_s": 13.1
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 4,
+    "level_name": "Row-max reduction (TLM-verified pattern)",
+    "family": "reduction",
+    "run_idx": 1,
+    "timestamp": "2026-05-31T10:48:27Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level4/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 5654,
+    "output_tokens": 664,
+    "elapsed_s": 13.2
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 4,
+    "level_name": "Row-max reduction (TLM-verified pattern)",
+    "family": "reduction",
+    "run_idx": 2,
+    "timestamp": "2026-05-31T10:48:40Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level4/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 5654,
+    "output_tokens": 719,
+    "elapsed_s": 12.6
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 5,
+    "level_name": "AbsMaxNorm (reduce-then-broadcast)",
+    "family": "norm",
+    "run_idx": 0,
+    "timestamp": "2026-05-31T10:48:53Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level5/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpyb5lm3a2.py\", line 47, in build_graph\n    recip  = vk2.insert(ir.instructions.pyxis.vpu.Reciprocal(),\n                        ^^^^^^^^^^^^^^^^^^^^^^^"
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmp3ts7ozwb.py\", line 47, in build_graph\n    recip  = vk2.insert(ir.instructions.pyxis.vpu.Reciprocal(),\n                        ^^^^^^^^^^^^^^^^^^^^^^^"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpo4733cft.py\", line 47, in build_graph\n    recip  = vk2.insert(ir.instructions.pyxis.vpu.Reciprocal(),\n                        ^^^^^^^^^^^^^^^^^^^^^^^"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 7431,
+    "output_tokens": 4192,
+    "elapsed_s": 57.9
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 5,
+    "level_name": "AbsMaxNorm (reduce-then-broadcast)",
+    "family": "norm",
+    "run_idx": 1,
+    "timestamp": "2026-05-31T10:49:52Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level5/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": 1,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "reference model failed:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 301, in evaluate_vpu_kernel\n    ref_out = ref_model(*ref_inputs)\n              ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/staging/venvs/system/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs"
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": 1,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "reference model failed:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 301, in evaluate_vpu_kernel\n    ref_out = ref_model(*ref_inputs)\n              ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/staging/venvs/system/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": 1,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "reference model failed:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 301, in evaluate_vpu_kernel\n    ref_out = ref_model(*ref_inputs)\n              ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/staging/venvs/system/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 7963,
+    "output_tokens": 3419,
+    "elapsed_s": 53.9
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 5,
+    "level_name": "AbsMaxNorm (reduce-then-broadcast)",
+    "family": "norm",
+    "run_idx": 2,
+    "timestamp": "2026-05-31T10:50:46Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level5/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": 2,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "runner execution failed:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 274, in evaluate_vpu_kernel\n    runnable = runner.transpile_to_torch_runnable(graph)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/python/tensordyne-runner/tensordyne/runner/runnable.py\", line 268, in transpile_to_torch_runnable\n    module = to"
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": 2,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "runner execution failed:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 274, in evaluate_vpu_kernel\n    runnable = runner.transpile_to_torch_runnable(graph)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/python/tensordyne-runner/tensordyne/runner/runnable.py\", line 268, in transpile_to_torch_runnable\n    module = to"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": 2,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "runner execution failed:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 274, in evaluate_vpu_kernel\n    runnable = runner.transpile_to_torch_runnable(graph)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/python/tensordyne-runner/tensordyne/runner/runnable.py\", line 268, in transpile_to_torch_runnable\n    module = to"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 7431,
+    "output_tokens": 2256,
+    "elapsed_s": 39.4
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 6,
+    "level_name": "Softmax (reduce + LUT exp + scalar broadcast)",
+    "family": "norm",
+    "run_idx": 0,
+    "timestamp": "2026-05-31T10:51:26Z",
+    "code_generated": false,
+    "output_file": "benchmark_vpu_outputs/rag/level6/run0/output.py",
+    "shape_results": [],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 6830,
+    "output_tokens": 4191,
+    "elapsed_s": 74.1
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 6,
+    "level_name": "Softmax (reduce + LUT exp + scalar broadcast)",
+    "family": "norm",
+    "run_idx": 1,
+    "timestamp": "2026-05-31T10:52:40Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level6/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpfrd3ra3s.py\", line 88, in build_graph\n    pyxis.vpu.Convert(output_eb=exp_eb),\n    ^^^^^^^^^^^^^^^^^\nAttributeError: module 'tensordyne.ir.instructio"
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpjrjx_5s6.py\", line 88, in build_graph\n    pyxis.vpu.Convert(output_eb=exp_eb),\n    ^^^^^^^^^^^^^^^^^\nAttributeError: module 'tensordyne.ir.instructio"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "build_graph raised:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 236, in evaluate_vpu_kernel\n    graph = agent_mod.build_graph(input_type)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpsqx5vemq.py\", line 88, in build_graph\n    pyxis.vpu.Convert(output_eb=exp_eb),\n    ^^^^^^^^^^^^^^^^^\nAttributeError: module 'tensordyne.ir.instructio"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 6830,
+    "output_tokens": 1886,
+    "elapsed_s": 30.7
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 6,
+    "level_name": "Softmax (reduce + LUT exp + scalar broadcast)",
+    "family": "norm",
+    "run_idx": 2,
+    "timestamp": "2026-05-31T10:53:11Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/rag/level6/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "unexpected:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 216, in evaluate_vpu_kernel\n    spec.loader.exec_module(agent_mod)  # type: ignore[union-attr]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File"
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "unexpected:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 216, in evaluate_vpu_kernel\n    spec.loader.exec_module(agent_mod)  # type: ignore[union-attr]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": null,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "unexpected:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 216, in evaluate_vpu_kernel\n    spec.loader.exec_module(agent_mod)  # type: ignore[union-attr]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 7518,
+    "output_tokens": 2729,
+    "elapsed_s": 43.8
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 0,
+    "level_name": "Negate (elementwise multi-row)",
+    "family": "elementwise",
+    "run_idx": 0,
+    "timestamp": "2026-05-31T10:53:54Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level0/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 5,
+    "input_tokens": 25240,
+    "output_tokens": 1991,
+    "elapsed_s": 32.5
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 0,
+    "level_name": "Negate (elementwise multi-row)",
+    "family": "elementwise",
+    "run_idx": 1,
+    "timestamp": "2026-05-31T10:54:27Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level0/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 9,
+    "input_tokens": 60759,
+    "output_tokens": 3132,
+    "elapsed_s": 63.1
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 0,
+    "level_name": "Negate (elementwise multi-row)",
+    "family": "elementwise",
+    "run_idx": 2,
+    "timestamp": "2026-05-31T10:55:30Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level0/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 11,
+    "input_tokens": 87733,
+    "output_tokens": 5045,
+    "elapsed_s": 83.2
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 1,
+    "level_name": "Abs (HW-native unary)",
+    "family": "elementwise",
+    "run_idx": 0,
+    "timestamp": "2026-05-31T10:56:53Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level1/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 7,
+    "input_tokens": 46611,
+    "output_tokens": 2387,
+    "elapsed_s": 44.1
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 1,
+    "level_name": "Abs (HW-native unary)",
+    "family": "elementwise",
+    "run_idx": 1,
+    "timestamp": "2026-05-31T10:57:37Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level1/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 11,
+    "input_tokens": 105760,
+    "output_tokens": 4671,
+    "elapsed_s": 75.3
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 1,
+    "level_name": "Abs (HW-native unary)",
+    "family": "elementwise",
+    "run_idx": 2,
+    "timestamp": "2026-05-31T10:58:53Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level1/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 9,
+    "input_tokens": 84198,
+    "output_tokens": 5118,
+    "elapsed_s": 83.7
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 2,
+    "level_name": "ReLU (predicate vs scalar zero)",
+    "family": "elementwise",
+    "run_idx": 0,
+    "timestamp": "2026-05-31T11:00:16Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level2/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 14,
+    "input_tokens": 184238,
+    "output_tokens": 9922,
+    "elapsed_s": 172.8
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 2,
+    "level_name": "ReLU (predicate vs scalar zero)",
+    "family": "elementwise",
+    "run_idx": 1,
+    "timestamp": "2026-05-31T11:03:09Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level2/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 10,
+    "input_tokens": 94292,
+    "output_tokens": 4938,
+    "elapsed_s": 83.1
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 2,
+    "level_name": "ReLU (predicate vs scalar zero)",
+    "family": "elementwise",
+    "run_idx": 2,
+    "timestamp": "2026-06-01T08:03:13Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level2/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 14,
+    "input_tokens": 204766,
+    "output_tokens": 12176,
+    "elapsed_s": 213.9
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 3,
+    "level_name": "Clip (parametric min/max)",
+    "family": "elementwise",
+    "run_idx": 0,
+    "timestamp": "2026-06-01T08:06:47Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level3/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 14,
+    "input_tokens": 145102,
+    "output_tokens": 7662,
+    "elapsed_s": 125.9
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 3,
+    "level_name": "Clip (parametric min/max)",
+    "family": "elementwise",
+    "run_idx": 1,
+    "timestamp": "2026-06-01T08:08:53Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level3/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 16,
+    "input_tokens": 183154,
+    "output_tokens": 8811,
+    "elapsed_s": 150.0
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 3,
+    "level_name": "Clip (parametric min/max)",
+    "family": "elementwise",
+    "run_idx": 2,
+    "timestamp": "2026-06-01T08:11:23Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level3/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 14,
+    "input_tokens": 139547,
+    "output_tokens": 6806,
+    "elapsed_s": 111.4
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 4,
+    "level_name": "Row-max reduction (TLM-verified pattern)",
+    "family": "reduction",
+    "run_idx": 0,
+    "timestamp": "2026-06-01T08:13:14Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level4/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 9,
+    "input_tokens": 86243,
+    "output_tokens": 3941,
+    "elapsed_s": 68.7
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 4,
+    "level_name": "Row-max reduction (TLM-verified pattern)",
+    "family": "reduction",
+    "run_idx": 1,
+    "timestamp": "2026-06-01T08:14:23Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level4/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 9,
+    "input_tokens": 84613,
+    "output_tokens": 4412,
+    "elapsed_s": 76.6
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 4,
+    "level_name": "Row-max reduction (TLM-verified pattern)",
+    "family": "reduction",
+    "run_idx": 2,
+    "timestamp": "2026-06-01T08:15:40Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level4/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 0.95947265625,
+        "ref_abs_max": 0.95947265625,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "n_kernels": 1,
+        "agent_abs_max": 1.0,
+        "ref_abs_max": 1.0,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 9,
+    "input_tokens": 80256,
+    "output_tokens": 4112,
+    "elapsed_s": 75.2
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 5,
+    "level_name": "AbsMaxNorm (reduce-then-broadcast)",
+    "family": "norm",
+    "run_idx": 0,
+    "timestamp": "2026-06-01T08:16:55Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level5/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": 2,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "reference model failed:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 301, in evaluate_vpu_kernel\n    ref_out = ref_model(*ref_inputs)\n              ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/staging/venvs/system/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs"
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": 2,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "reference model failed:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 301, in evaluate_vpu_kernel\n    ref_out = ref_model(*ref_inputs)\n              ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/staging/venvs/system/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": 2,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "reference model failed:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 301, in evaluate_vpu_kernel\n    ref_out = ref_model(*ref_inputs)\n              ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/staging/venvs/system/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs"
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 26,
+    "input_tokens": 1443045,
+    "output_tokens": 66856,
+    "elapsed_s": 1151.3
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 5,
+    "level_name": "AbsMaxNorm (reduce-then-broadcast)",
+    "family": "norm",
+    "run_idx": 1,
+    "timestamp": "2026-06-01T08:36:06Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level5/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": 3,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "reference model failed:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 301, in evaluate_vpu_kernel\n    ref_out = ref_model(*ref_inputs)\n              ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/staging/venvs/system/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs"
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": 3,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "reference model failed:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 301, in evaluate_vpu_kernel\n    ref_out = ref_model(*ref_inputs)\n              ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/staging/venvs/system/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": 3,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "reference model failed:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 301, in evaluate_vpu_kernel\n    ref_out = ref_model(*ref_inputs)\n              ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/staging/venvs/system/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs"
+      }
+    ],
+    "outer_iterations": 2,
+    "tool_calls": 43,
+    "input_tokens": 1579334,
+    "output_tokens": 79600,
+    "elapsed_s": 1332.5
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 5,
+    "level_name": "AbsMaxNorm (reduce-then-broadcast)",
+    "family": "norm",
+    "run_idx": 2,
+    "timestamp": "2026-06-01T08:58:19Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level5/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": 2,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "reference model failed:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 301, in evaluate_vpu_kernel\n    ref_out = ref_model(*ref_inputs)\n              ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/staging/venvs/system/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs"
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": 2,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "reference model failed:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 301, in evaluate_vpu_kernel\n    ref_out = ref_model(*ref_inputs)\n              ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/staging/venvs/system/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs"
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": false,
+        "max_diff": null,
+        "n_kernels": 2,
+        "agent_abs_max": null,
+        "ref_abs_max": null,
+        "sandbagging": false,
+        "error": "reference model failed:\nTraceback (most recent call last):\n  File \"/workspaces/rock/tests/benchmark_vpu_eval.py\", line 301, in evaluate_vpu_kernel\n    ref_out = ref_model(*ref_inputs)\n              ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspaces/rock/staging/venvs/system/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs"
+      }
+    ],
+    "outer_iterations": 2,
+    "tool_calls": 62,
+    "input_tokens": 3565367,
+    "output_tokens": 127875,
+    "elapsed_s": 2155.6
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 6,
+    "level_name": "Softmax (reduce + LUT exp + scalar broadcast)",
+    "family": "norm",
+    "run_idx": 0,
+    "timestamp": "2026-06-01T09:34:15Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level6/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 6.246566772460938e-05,
+        "n_kernels": 1,
+        "agent_abs_max": 0.1021728515625,
+        "ref_abs_max": 0.10213237255811691,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": true,
+        "max_diff": 6.246566772460938e-05,
+        "n_kernels": 1,
+        "agent_abs_max": 0.1021728515625,
+        "ref_abs_max": 0.10213237255811691,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 6.246566772460938e-05,
+        "n_kernels": 1,
+        "agent_abs_max": 0.11248779296875,
+        "ref_abs_max": 0.11252399533987045,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 30,
+    "input_tokens": 1087279,
+    "output_tokens": 44156,
+    "elapsed_s": 762.0
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 6,
+    "level_name": "Softmax (reduce + LUT exp + scalar broadcast)",
+    "family": "norm",
+    "run_idx": 1,
+    "timestamp": "2026-06-01T09:46:57Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level6/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 6.246566772460938e-05,
+        "n_kernels": 4,
+        "agent_abs_max": 0.1021728515625,
+        "ref_abs_max": 0.10213237255811691,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": true,
+        "max_diff": 6.246566772460938e-05,
+        "n_kernels": 4,
+        "agent_abs_max": 0.1021728515625,
+        "ref_abs_max": 0.10213237255811691,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 6.246566772460938e-05,
+        "n_kernels": 4,
+        "agent_abs_max": 0.11248779296875,
+        "ref_abs_max": 0.11252399533987045,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 28,
+    "input_tokens": 698180,
+    "output_tokens": 30318,
+    "elapsed_s": 501.4
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 6,
+    "level_name": "Softmax (reduce + LUT exp + scalar broadcast)",
+    "family": "norm",
+    "run_idx": 2,
+    "timestamp": "2026-06-01T09:55:19Z",
+    "code_generated": true,
+    "output_file": "benchmark_vpu_outputs/agentic/level6/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          16
+        ],
+        "passed": true,
+        "max_diff": 6.246566772460938e-05,
+        "n_kernels": 3,
+        "agent_abs_max": 0.1021728515625,
+        "ref_abs_max": 0.10213237255811691,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          16
+        ],
+        "passed": true,
+        "max_diff": 6.246566772460938e-05,
+        "n_kernels": 3,
+        "agent_abs_max": 0.1021728515625,
+        "ref_abs_max": 0.10213237255811691,
+        "sandbagging": false,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          16
+        ],
+        "passed": true,
+        "max_diff": 6.246566772460938e-05,
+        "n_kernels": 3,
+        "agent_abs_max": 0.11248779296875,
+        "ref_abs_max": 0.11252399533987045,
+        "sandbagging": false,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 29,
+    "input_tokens": 1229192,
+    "output_tokens": 54296,
+    "elapsed_s": 873.5
+  }
+]

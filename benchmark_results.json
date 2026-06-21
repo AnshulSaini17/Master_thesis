@@ -1,0 +1,2486 @@
+[
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 0,
+    "level_name": "Single Linear",
+    "run_idx": 0,
+    "timestamp": "2026-05-29T15:56:38Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/prompting/level0/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1246,
+    "output_tokens": 77,
+    "elapsed_s": 2.8
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 0,
+    "level_name": "Single Linear",
+    "run_idx": 1,
+    "timestamp": "2026-05-29T15:56:41Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/prompting/level0/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1246,
+    "output_tokens": 77,
+    "elapsed_s": 2.1
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 0,
+    "level_name": "Single Linear",
+    "run_idx": 2,
+    "timestamp": "2026-05-29T15:56:43Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/prompting/level0/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1246,
+    "output_tokens": 77,
+    "elapsed_s": 2.2
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 0,
+    "level_name": "Single Linear",
+    "run_idx": 0,
+    "timestamp": "2026-05-29T15:56:45Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/rag/level0/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 907,
+    "output_tokens": 90,
+    "elapsed_s": 7.5
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 0,
+    "level_name": "Single Linear",
+    "run_idx": 1,
+    "timestamp": "2026-05-29T15:56:53Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/rag/level0/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 907,
+    "output_tokens": 90,
+    "elapsed_s": 4.7
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 0,
+    "level_name": "Single Linear",
+    "run_idx": 2,
+    "timestamp": "2026-05-29T15:56:58Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/rag/level0/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 907,
+    "output_tokens": 90,
+    "elapsed_s": 3.3
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 0,
+    "level_name": "Single Linear",
+    "run_idx": 0,
+    "timestamp": "2026-05-29T15:57:01Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/agentic/level0/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 9,
+    "input_tokens": 63189,
+    "output_tokens": 2772,
+    "elapsed_s": 53.5
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 0,
+    "level_name": "Single Linear",
+    "run_idx": 1,
+    "timestamp": "2026-05-29T15:57:54Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/agentic/level0/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 13,
+    "input_tokens": 120787,
+    "output_tokens": 4067,
+    "elapsed_s": 79.7
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 0,
+    "level_name": "Single Linear",
+    "run_idx": 2,
+    "timestamp": "2026-05-29T15:59:14Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/agentic/level0/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          32
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 5,
+    "input_tokens": 23671,
+    "output_tokens": 1513,
+    "elapsed_s": 25.7
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 1,
+    "level_name": "MLP (3-layer ReLU)",
+    "run_idx": 0,
+    "timestamp": "2026-05-29T15:59:49Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/prompting/level1/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1308,
+    "output_tokens": 150,
+    "elapsed_s": 3.1
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 1,
+    "level_name": "MLP (3-layer ReLU)",
+    "run_idx": 1,
+    "timestamp": "2026-05-29T15:59:52Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/prompting/level1/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1308,
+    "output_tokens": 150,
+    "elapsed_s": 2.6
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 1,
+    "level_name": "MLP (3-layer ReLU)",
+    "run_idx": 2,
+    "timestamp": "2026-05-29T15:59:55Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/prompting/level1/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1308,
+    "output_tokens": 150,
+    "elapsed_s": 2.8
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 2,
+    "level_name": "Single-Head Attention",
+    "run_idx": 0,
+    "timestamp": "2026-05-29T15:59:58Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/prompting/level2/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "too many positional arguments"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "too many positional arguments"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "too many positional arguments"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1512,
+    "output_tokens": 368,
+    "elapsed_s": 4.6
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 2,
+    "level_name": "Single-Head Attention",
+    "run_idx": 1,
+    "timestamp": "2026-05-29T16:00:02Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/prompting/level2/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "too many positional arguments"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "too many positional arguments"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "too many positional arguments"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1512,
+    "output_tokens": 371,
+    "elapsed_s": 8.2
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 2,
+    "level_name": "Single-Head Attention",
+    "run_idx": 2,
+    "timestamp": "2026-05-29T16:00:10Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/prompting/level2/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "too many positional arguments"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "too many positional arguments"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "too many positional arguments"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1512,
+    "output_tokens": 368,
+    "elapsed_s": 5.8
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 3,
+    "level_name": "Gated MLP + RMSNorm",
+    "run_idx": 0,
+    "timestamp": "2026-05-29T16:00:16Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/prompting/level3/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1620,
+    "output_tokens": 510,
+    "elapsed_s": 6.4
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 3,
+    "level_name": "Gated MLP + RMSNorm",
+    "run_idx": 1,
+    "timestamp": "2026-05-29T16:00:23Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/prompting/level3/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1620,
+    "output_tokens": 510,
+    "elapsed_s": 6.5
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 3,
+    "level_name": "Gated MLP + RMSNorm",
+    "run_idx": 2,
+    "timestamp": "2026-05-29T16:00:29Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/prompting/level3/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1620,
+    "output_tokens": 510,
+    "elapsed_s": 6.6
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 4,
+    "level_name": "Multi-Head Attention + RMSNorm",
+    "run_idx": 0,
+    "timestamp": "2026-05-29T16:00:36Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/prompting/level4/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 2334,
+    "output_tokens": 1365,
+    "elapsed_s": 15.3
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 4,
+    "level_name": "Multi-Head Attention + RMSNorm",
+    "run_idx": 1,
+    "timestamp": "2026-05-29T16:00:51Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/prompting/level4/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 2334,
+    "output_tokens": 1255,
+    "elapsed_s": 14.3
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 4,
+    "level_name": "Multi-Head Attention + RMSNorm",
+    "run_idx": 2,
+    "timestamp": "2026-05-29T16:01:05Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/prompting/level4/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 2334,
+    "output_tokens": 1146,
+    "elapsed_s": 13.1
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 5,
+    "level_name": "Llama Decoder Layer",
+    "run_idx": 0,
+    "timestamp": "2026-05-29T16:01:18Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/prompting/level5/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 3216,
+    "output_tokens": 3087,
+    "elapsed_s": 35.1
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 5,
+    "level_name": "Llama Decoder Layer",
+    "run_idx": 1,
+    "timestamp": "2026-05-29T16:01:54Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/prompting/level5/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "Parameter.__init__() missing 1 required positional argument: 'dtype'"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 3216,
+    "output_tokens": 2983,
+    "elapsed_s": 34.6
+  },
+  {
+    "approach": "prompting",
+    "model": "claude-sonnet-4-6",
+    "level_id": 5,
+    "level_name": "Llama Decoder Layer",
+    "run_idx": 2,
+    "timestamp": "2026-05-29T16:02:28Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/prompting/level5/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "`url_dict` was provided but resource information for parameter 'attn_norm.weight' is missing."
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "`url_dict` was provided but resource information for parameter 'attn_norm.weight' is missing."
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "`url_dict` was provided but resource information for parameter 'attn_norm.weight' is missing."
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 3216,
+    "output_tokens": 3220,
+    "elapsed_s": 39.6
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 1,
+    "level_name": "MLP (3-layer ReLU)",
+    "run_idx": 0,
+    "timestamp": "2026-05-29T16:04:47Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/rag/level1/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1207,
+    "output_tokens": 183,
+    "elapsed_s": 7.8
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 1,
+    "level_name": "MLP (3-layer ReLU)",
+    "run_idx": 1,
+    "timestamp": "2026-05-29T16:04:55Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/rag/level1/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1207,
+    "output_tokens": 183,
+    "elapsed_s": 5.0
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 1,
+    "level_name": "MLP (3-layer ReLU)",
+    "run_idx": 2,
+    "timestamp": "2026-05-29T16:05:00Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/rag/level1/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1207,
+    "output_tokens": 183,
+    "elapsed_s": 7.1
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 2,
+    "level_name": "Single-Head Attention",
+    "run_idx": 0,
+    "timestamp": "2026-05-29T16:05:07Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/rag/level2/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1862,
+    "output_tokens": 407,
+    "elapsed_s": 7.5
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 2,
+    "level_name": "Single-Head Attention",
+    "run_idx": 1,
+    "timestamp": "2026-05-29T16:05:15Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/rag/level2/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1862,
+    "output_tokens": 407,
+    "elapsed_s": 7.5
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 2,
+    "level_name": "Single-Head Attention",
+    "run_idx": 2,
+    "timestamp": "2026-05-29T16:05:22Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/rag/level2/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 1862,
+    "output_tokens": 407,
+    "elapsed_s": 7.4
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 3,
+    "level_name": "Gated MLP + RMSNorm",
+    "run_idx": 0,
+    "timestamp": "2026-05-29T16:05:30Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/rag/level3/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "BufferizedRMSNorm.__init__() missing 1 required positional argument: 'normalized_shape'"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "BufferizedRMSNorm.__init__() missing 1 required positional argument: 'normalized_shape'"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "BufferizedRMSNorm.__init__() missing 1 required positional argument: 'normalized_shape'"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 3115,
+    "output_tokens": 627,
+    "elapsed_s": 10.7
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 3,
+    "level_name": "Gated MLP + RMSNorm",
+    "run_idx": 1,
+    "timestamp": "2026-05-29T16:05:40Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/rag/level3/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "BufferizedRMSNorm.__init__() missing 1 required positional argument: 'normalized_shape'"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "BufferizedRMSNorm.__init__() missing 1 required positional argument: 'normalized_shape'"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "BufferizedRMSNorm.__init__() missing 1 required positional argument: 'normalized_shape'"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 3115,
+    "output_tokens": 597,
+    "elapsed_s": 11.0
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 3,
+    "level_name": "Gated MLP + RMSNorm",
+    "run_idx": 2,
+    "timestamp": "2026-05-29T16:05:51Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/rag/level3/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "BufferizedRMSNorm.__init__() missing 1 required positional argument: 'normalized_shape'"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "BufferizedRMSNorm.__init__() missing 1 required positional argument: 'normalized_shape'"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "BufferizedRMSNorm.__init__() missing 1 required positional argument: 'normalized_shape'"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 3115,
+    "output_tokens": 612,
+    "elapsed_s": 10.2
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 4,
+    "level_name": "Multi-Head Attention + RMSNorm",
+    "run_idx": 0,
+    "timestamp": "2026-05-29T16:06:02Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/rag/level4/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "cannot import name '_build_rms_norm' from 'tensordyne.nn.modules.normalization' (/workspaces/rock/python/tensordyne-nn/tensordyne/nn/modules/normalization.py)"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "cannot import name '_build_rms_norm' from 'tensordyne.nn.modules.normalization' (/workspaces/rock/python/tensordyne-nn/tensordyne/nn/modules/normalization.py)"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "cannot import name '_build_rms_norm' from 'tensordyne.nn.modules.normalization' (/workspaces/rock/python/tensordyne-nn/tensordyne/nn/modules/normalization.py)"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 4156,
+    "output_tokens": 1202,
+    "elapsed_s": 17.5
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 4,
+    "level_name": "Multi-Head Attention + RMSNorm",
+    "run_idx": 1,
+    "timestamp": "2026-05-29T16:06:19Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/rag/level4/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "cannot import name '_build_rms_norm' from 'tensordyne.nn.modules.normalization' (/workspaces/rock/python/tensordyne-nn/tensordyne/nn/modules/normalization.py)"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "cannot import name '_build_rms_norm' from 'tensordyne.nn.modules.normalization' (/workspaces/rock/python/tensordyne-nn/tensordyne/nn/modules/normalization.py)"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "cannot import name '_build_rms_norm' from 'tensordyne.nn.modules.normalization' (/workspaces/rock/python/tensordyne-nn/tensordyne/nn/modules/normalization.py)"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 4156,
+    "output_tokens": 1166,
+    "elapsed_s": 17.6
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 4,
+    "level_name": "Multi-Head Attention + RMSNorm",
+    "run_idx": 2,
+    "timestamp": "2026-05-29T16:06:37Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/rag/level4/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "cannot import name '_build_rms_norm' from 'tensordyne.nn.modules.normalization' (/workspaces/rock/python/tensordyne-nn/tensordyne/nn/modules/normalization.py)"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "cannot import name '_build_rms_norm' from 'tensordyne.nn.modules.normalization' (/workspaces/rock/python/tensordyne-nn/tensordyne/nn/modules/normalization.py)"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "cannot import name '_build_rms_norm' from 'tensordyne.nn.modules.normalization' (/workspaces/rock/python/tensordyne-nn/tensordyne/nn/modules/normalization.py)"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 4156,
+    "output_tokens": 1288,
+    "elapsed_s": 18.0
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 5,
+    "level_name": "Llama Decoder Layer",
+    "run_idx": 0,
+    "timestamp": "2026-05-29T16:06:55Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/rag/level5/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "cannot import name '_build_rms_norm' from 'tensordyne.nn.modules.normalization' (/workspaces/rock/python/tensordyne-nn/tensordyne/nn/modules/normalization.py)"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "cannot import name '_build_rms_norm' from 'tensordyne.nn.modules.normalization' (/workspaces/rock/python/tensordyne-nn/tensordyne/nn/modules/normalization.py)"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "cannot import name '_build_rms_norm' from 'tensordyne.nn.modules.normalization' (/workspaces/rock/python/tensordyne-nn/tensordyne/nn/modules/normalization.py)"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 5962,
+    "output_tokens": 1815,
+    "elapsed_s": 22.3
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 5,
+    "level_name": "Llama Decoder Layer",
+    "run_idx": 1,
+    "timestamp": "2026-05-29T16:07:17Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/rag/level5/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "cannot import name '_build_rms_norm' from 'tensordyne.nn.modules.normalization' (/workspaces/rock/python/tensordyne-nn/tensordyne/nn/modules/normalization.py)"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "cannot import name '_build_rms_norm' from 'tensordyne.nn.modules.normalization' (/workspaces/rock/python/tensordyne-nn/tensordyne/nn/modules/normalization.py)"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "cannot import name '_build_rms_norm' from 'tensordyne.nn.modules.normalization' (/workspaces/rock/python/tensordyne-nn/tensordyne/nn/modules/normalization.py)"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 5874,
+    "output_tokens": 2367,
+    "elapsed_s": 30.1
+  },
+  {
+    "approach": "rag",
+    "model": "claude-sonnet-4-6",
+    "level_id": 5,
+    "level_name": "Llama Decoder Layer",
+    "run_idx": 2,
+    "timestamp": "2026-05-29T16:07:47Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/rag/level5/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "cannot import name '_build_rms_norm' from 'tensordyne.nn.modules.normalization' (/workspaces/rock/python/tensordyne-nn/tensordyne/nn/modules/normalization.py)"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "cannot import name '_build_rms_norm' from 'tensordyne.nn.modules.normalization' (/workspaces/rock/python/tensordyne-nn/tensordyne/nn/modules/normalization.py)"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "cannot import name '_build_rms_norm' from 'tensordyne.nn.modules.normalization' (/workspaces/rock/python/tensordyne-nn/tensordyne/nn/modules/normalization.py)"
+      }
+    ],
+    "outer_iterations": null,
+    "tool_calls": null,
+    "input_tokens": 5874,
+    "output_tokens": 1769,
+    "elapsed_s": 22.2
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 1,
+    "level_name": "MLP (3-layer ReLU)",
+    "run_idx": 0,
+    "timestamp": "2026-05-29T16:10:05Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/agentic/level1/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 8,
+    "input_tokens": 48288,
+    "output_tokens": 2717,
+    "elapsed_s": 48.3
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 1,
+    "level_name": "MLP (3-layer ReLU)",
+    "run_idx": 1,
+    "timestamp": "2026-05-29T16:10:54Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/agentic/level1/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 9,
+    "input_tokens": 52059,
+    "output_tokens": 3190,
+    "elapsed_s": 50.1
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 1,
+    "level_name": "MLP (3-layer ReLU)",
+    "run_idx": 2,
+    "timestamp": "2026-05-29T16:11:44Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/agentic/level1/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          4,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          8,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 13,
+    "input_tokens": 106387,
+    "output_tokens": 5142,
+    "elapsed_s": 83.6
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 2,
+    "level_name": "Single-Head Attention",
+    "run_idx": 0,
+    "timestamp": "2026-05-29T16:13:08Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/agentic/level2/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "BufferizedRMSNorm.__init__() missing 1 required positional argument: 'normalized_shape'"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "BufferizedRMSNorm.__init__() missing 1 required positional argument: 'normalized_shape'"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "BufferizedRMSNorm.__init__() missing 1 required positional argument: 'normalized_shape'"
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 17,
+    "input_tokens": 208475,
+    "output_tokens": 10548,
+    "elapsed_s": 159.8
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 2,
+    "level_name": "Single-Head Attention",
+    "run_idx": 1,
+    "timestamp": "2026-05-29T16:15:47Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/agentic/level2/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 21,
+    "input_tokens": 263731,
+    "output_tokens": 9125,
+    "elapsed_s": 164.3
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 2,
+    "level_name": "Single-Head Attention",
+    "run_idx": 2,
+    "timestamp": "2026-05-29T16:18:32Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/agentic/level2/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": true,
+        "max_diff": 1.341104507446289e-07,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 0.0,
+        "error": ""
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": true,
+        "max_diff": 1.1920928955078125e-07,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 9,
+    "input_tokens": 69573,
+    "output_tokens": 5419,
+    "elapsed_s": 84.1
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 3,
+    "level_name": "Gated MLP + RMSNorm",
+    "run_idx": 0,
+    "timestamp": "2026-05-29T16:19:56Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/agentic/level3/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 13,
+    "input_tokens": 120120,
+    "output_tokens": 8079,
+    "elapsed_s": 121.4
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 3,
+    "level_name": "Gated MLP + RMSNorm",
+    "run_idx": 1,
+    "timestamp": "2026-05-29T16:21:57Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/agentic/level3/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 1.1920928955078125e-07,
+        "error": ""
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 15,
+    "input_tokens": 148697,
+    "output_tokens": 9187,
+    "elapsed_s": 144.1
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 3,
+    "level_name": "Gated MLP + RMSNorm",
+    "run_idx": 2,
+    "timestamp": "2026-05-29T16:24:22Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/agentic/level3/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 1.1920928955078125e-07,
+        "error": ""
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 16,
+    "input_tokens": 158677,
+    "output_tokens": 9099,
+    "elapsed_s": 141.2
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 4,
+    "level_name": "Multi-Head Attention + RMSNorm",
+    "run_idx": 0,
+    "timestamp": "2026-05-29T16:26:43Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/agentic/level4/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 17,
+    "input_tokens": 193574,
+    "output_tokens": 10875,
+    "elapsed_s": 168.8
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 4,
+    "level_name": "Multi-Head Attention + RMSNorm",
+    "run_idx": 1,
+    "timestamp": "2026-05-29T16:29:32Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/agentic/level4/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "BufferizedRMSNorm.__init__() missing 1 required positional argument: 'normalized_shape'"
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "BufferizedRMSNorm.__init__() missing 1 required positional argument: 'normalized_shape'"
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": false,
+        "max_diff": null,
+        "error": "BufferizedRMSNorm.__init__() missing 1 required positional argument: 'normalized_shape'"
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 17,
+    "input_tokens": 222802,
+    "output_tokens": 13001,
+    "elapsed_s": 187.8
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 4,
+    "level_name": "Multi-Head Attention + RMSNorm",
+    "run_idx": 2,
+    "timestamp": "2026-05-29T16:32:39Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/agentic/level4/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 17,
+    "input_tokens": 225701,
+    "output_tokens": 11956,
+    "elapsed_s": 180.7
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 5,
+    "level_name": "Llama Decoder Layer",
+    "run_idx": 0,
+    "timestamp": "2026-05-29T16:35:40Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/agentic/level5/run0/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 24,
+    "input_tokens": 520505,
+    "output_tokens": 33961,
+    "elapsed_s": 480.0
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 5,
+    "level_name": "Llama Decoder Layer",
+    "run_idx": 1,
+    "timestamp": "2026-05-29T16:43:40Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/agentic/level5/run1/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": true,
+        "max_diff": 4.76837158203125e-07,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 26,
+    "input_tokens": 518007,
+    "output_tokens": 30408,
+    "elapsed_s": 462.8
+  },
+  {
+    "approach": "agentic",
+    "model": "claude-sonnet-4-6",
+    "level_id": 5,
+    "level_name": "Llama Decoder Layer",
+    "run_idx": 2,
+    "timestamp": "2026-05-29T16:51:23Z",
+    "code_generated": true,
+    "output_file": "benchmark_outputs/agentic/level5/run2/output.py",
+    "shape_results": [
+      {
+        "shape": [
+          2,
+          10,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.980232238769531e-07,
+        "error": ""
+      },
+      {
+        "shape": [
+          2,
+          1,
+          64
+        ],
+        "passed": true,
+        "max_diff": 2.384185791015625e-07,
+        "error": ""
+      },
+      {
+        "shape": [
+          4,
+          7,
+          64
+        ],
+        "passed": true,
+        "max_diff": 4.76837158203125e-07,
+        "error": ""
+      }
+    ],
+    "outer_iterations": 1,
+    "tool_calls": 27,
+    "input_tokens": 428886,
+    "output_tokens": 26911,
+    "elapsed_s": 381.2
+  }
+]
