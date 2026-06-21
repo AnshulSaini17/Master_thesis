@@ -36,7 +36,11 @@ This is the **subset of my thesis work that does not depend on Tensordyne's
 proprietary infrastructure** and that can be shared externally. Specifically,
 it contains:
 
-- The LangGraph-based agent that I designed and implemented (`langgraph_agent/`)
+- The LangGraph-based agent that I designed and implemented, in **two
+  versions** corresponding to the two experiments — `langgraph_agent_exp1/`
+  contains the agent that produced the Experiment 1 results, and
+  `langgraph_agent_exp2/` contains the agent that produced the Experiment 2
+  results (see the note in the Repository layout below).
 - The three approach implementations — prompting, RAG, agentic — and their
   evaluation harnesses (`benchmark_eval.py`, `benchmark_vpu_eval.py`,
   `benchmark_kb_ablation.py`, `benchmark_report.py`)
@@ -64,11 +68,15 @@ company's internal monorepo and saved here as-is.
 ```
 .
 ├── README.md                              this file
-├── langgraph_agent/
-│   ├── agent.py                           the LangGraph ReAct agent (both modes)
-│   ├── tools.py                           the 5 agent tools (lookup_kb, think, etc.)
+├── langgraph_agent_exp1/                  agent that ran Experiment 1
+│   ├── agent.py                           nn-mode agent with the original PyTorch-focused _SYSTEM_PROMPT
+│   ├── tools.py                           the 5 agent tools (no run_vpu_evaluation)
+│   └── __init__.py
+├── langgraph_agent_exp2/                  agent that ran Experiment 2
+│   ├── agent.py                           adds vpu_lowering mode + _VPU_LOWERING_SYSTEM_PROMPT
+│   ├── tools.py                           adds run_vpu_evaluation tool
 │   ├── ARCHITECTURE.md                    agent architecture overview
-│   ├── demo.ipynb                         interactive demo on Exp 1 inputs
+│   ├── demo.ipynb                         interactive demo on Exp 1-style inputs
 │   └── explore_vpu.ipynb                  exploration of the VPU lowering pipeline
 ├── benchmark_eval.py                      Exp 1 benchmark — PyTorch → Tensordyne.nn
 ├── benchmark_vpu_eval.py                  Exp 2 benchmark — Triton → VPU IR
@@ -129,34 +137,49 @@ sandbagging report, and failure-mode discussion.
 - **Pass tolerance**: `max_diff < 1.0` against PyTorch fp32 reference
 
 The verbatim system prompts and tool docstrings are defined as constants in
-the source files: `_SYSTEM_PROMPT` and `_VPU_LOWERING_SYSTEM_PROMPT` in
-[langgraph_agent/agent.py](langgraph_agent/agent.py), `_PROMPTING_SYSTEM` and
-`_RAG_SYSTEM` in [benchmark_eval.py](benchmark_eval.py),
-`_PROMPTING_VPU_SYSTEM` and `_RAG_VPU_SYSTEM` in
-[benchmark_vpu_eval.py](benchmark_vpu_eval.py), and the tool docstrings in
-[langgraph_agent/tools.py](langgraph_agent/tools.py).
+the source files:
+
+- `_SYSTEM_PROMPT` in [langgraph_agent_exp1/agent.py](langgraph_agent_exp1/agent.py) — the agent prompt used for Experiment 1
+- `_VPU_LOWERING_SYSTEM_PROMPT` in [langgraph_agent_exp2/agent.py](langgraph_agent_exp2/agent.py) — the agent prompt used for Experiment 2
+- `_PROMPTING_SYSTEM` / `_RAG_SYSTEM` in [benchmark_eval.py](benchmark_eval.py) — Exp 1 prompting and RAG baselines
+- `_PROMPTING_VPU_SYSTEM` / `_RAG_VPU_SYSTEM` in [benchmark_vpu_eval.py](benchmark_vpu_eval.py) — Exp 2 prompting and RAG baselines
+- Tool docstrings in [langgraph_agent_exp1/tools.py](langgraph_agent_exp1/tools.py) and [langgraph_agent_exp2/tools.py](langgraph_agent_exp2/tools.py)
+
+**Why two agent directories?** The two experiments were run on two
+different branches of the internal monorepo at different points in time.
+Experiment 1 used the original PyTorch-focused agent (`anshul/thesis-bench`
+branch). Experiment 2 was added later on a separate branch
+(`anshul/thesis-vpu-snapshot`) where the agent was extended with a second
+mode (`vpu_lowering`) for emitting IR directly, plus a new
+`run_vpu_evaluation` tool. To preserve provenance, the repository keeps
+both versions intact rather than merging them into one composite.
 
 ## How to read the repository
 
-1. **[langgraph_agent/agent.py](langgraph_agent/agent.py)** — the agent itself.
-   The two operating modes (`nn` and `vpu_lowering`) and the outer-loop logic.
-2. **[langgraph_agent/tools.py](langgraph_agent/tools.py)** — the five agent
-   tools: `read_pytorch_source`, `lookup_kb`, `think`, `run_evaluation`
-   (or `run_vpu_evaluation`), `write_output`.
-3. **[benchmark_eval.py](benchmark_eval.py)** — the Experiment 1 protocol and
+1. **[langgraph_agent_exp1/agent.py](langgraph_agent_exp1/agent.py)** — the
+   Experiment 1 agent: nn-mode only, with the original PyTorch-focused
+   `_SYSTEM_PROMPT` and outer-loop logic.
+2. **[langgraph_agent_exp2/agent.py](langgraph_agent_exp2/agent.py)** — the
+   Experiment 2 agent: adds `vpu_lowering` mode and `_VPU_LOWERING_SYSTEM_PROMPT`
+   for emitting IR directly.
+3. **[langgraph_agent_exp1/tools.py](langgraph_agent_exp1/tools.py) /
+   [langgraph_agent_exp2/tools.py](langgraph_agent_exp2/tools.py)** — the
+   four (Exp 1) or five (Exp 2) agent tools. Exp 2's `tools.py` adds
+   `run_vpu_evaluation`.
+4. **[benchmark_eval.py](benchmark_eval.py)** — the Experiment 1 protocol and
    the prompting/RAG system prompts as in-file constants.
-4. **[benchmark_vpu_eval.py](benchmark_vpu_eval.py)** — the Experiment 2
+5. **[benchmark_vpu_eval.py](benchmark_vpu_eval.py)** — the Experiment 2
    protocol and prompts.
-5. **[benchmark_results.csv](benchmark_results.csv) /
+6. **[benchmark_results.csv](benchmark_results.csv) /
    [benchmark_vpu_results.csv](benchmark_vpu_results.csv)** — the per-level
    summary tables the thesis quotes. The full per-run records live in the
    matching `.json` files.
-6. **[benchmark_outputs/](benchmark_outputs/) /
+7. **[benchmark_outputs/](benchmark_outputs/) /
    [benchmark_vpu_outputs/](benchmark_vpu_outputs/)** — every piece of
    generated code, one `output.py` per `(approach, level, run)`. These are
    the actual artifacts produced by each LLM call.
-7. **[langgraph_agent/demo.ipynb](langgraph_agent/demo.ipynb) /
-   [langgraph_agent/explore_vpu.ipynb](langgraph_agent/explore_vpu.ipynb)** —
+8. **[langgraph_agent_exp2/demo.ipynb](langgraph_agent_exp2/demo.ipynb) /
+   [langgraph_agent_exp2/explore_vpu.ipynb](langgraph_agent_exp2/explore_vpu.ipynb)** —
    exploratory notebooks documenting the system design and the VPU lowering
    pipeline. They reference internal Tensordyne APIs and will not execute in
    this repository.
